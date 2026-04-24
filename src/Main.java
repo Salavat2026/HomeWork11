@@ -19,6 +19,7 @@ public class Main {
         }
     }
 
+
     public static void checkLeapYear(int year) {
         if (year > 1584) {
             if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
